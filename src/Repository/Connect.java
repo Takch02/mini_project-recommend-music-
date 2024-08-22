@@ -16,7 +16,7 @@ public class Connect {
 
         String url = "jdbc:mysql://localhost:3306/music";
         String user = "java";
-        String password = "mysql";
+        String password = "";
 
         conn = DriverManager.getConnection(url, user, password);
     } catch (Exception e) {
